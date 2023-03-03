@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f5   ;
+    overflow: hidden;
+}
+nav{
+    height: 15vh;
+    padding: 2% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.list a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: black;
+    color:aliceblue;
+}
+.logo{
+    cursor: pointer;
+}
+main{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main section{
+    width: 50%;
+}
+.top-angle{
+    width: 25px;
+}
+.hero-section-left{
+    margin-left: 7%;
+    position: relative;
+}
+.hero-section-left h1{
+    font-size: 60px;
+    font-weight: 1500;
+    line-height: 70px;
+}
+.description{
+    color: hwb(0 49% 51%);
+    font-size: 18px;
+    margin-top: 25px;
+}
+.stethoscope {
+  position: absolute;
+  width: 80%;
+  top: -60px;
+  right: -25%;
+  z-index: -1;
+}
+.mouse{
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+}
+.bottom-Angle{
+    width: 25px;
+    position: absolute;
+    right: 30px;
+}
+.hero-section-left button{
+    color: aliceblue;
+    background-color: rgb(10, 155, 94);
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    padding: 10px 32px;
+    font-weight: 700;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.green-box, .yellow-box{
+    position: absolute;
+    right: 0;
+}
+.green-box{
+    width: 30%;
+    bottom: 30px;
+}
+.yellow-box{
+    width: 20%;
+    bottom: 50px;
+}
+.doctor{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+}

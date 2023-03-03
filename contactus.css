@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px; 
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f5   ;
+    overflow: hidden;
+}
+nav{
+    height: 15vh;
+    padding: 2% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.list a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: black;
+    color:aliceblue;
+}
+.logo{
+    cursor: pointer;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    border: 2px solid black;
+    width: 300px;
+    height: 350px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 30px;
+    box-shadow: 5px 5px 5px grey, -5px -5px 5px grey;
+} 
+h1{
+    text-align: center;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+label{
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#text{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+}
+#email{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+}
+#Message{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 80px;
+}
+#submit{
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(10, 155, 94);
+    color: #f0f4f5;
+    font-size: 15px;
+    height: 25px;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
